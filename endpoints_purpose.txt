@@ -5,6 +5,6 @@
 /admin/categories/<cat_name> [GET, PUT, POST, DELETE]
 
 Пошук:
-/admin/categories/search?cat_name=<cat_name>&order_by={ccal/price/rate/name}&dec=True
-/admin/dishes/search?dish_name=<dish_name>&order_by={ccal/price/rate/name}&dec=True
-/admin/orders/search?order_id=<order_id>&order_by={ccal/price/rate/name}&dec=True
+/admin/categories/search?cat_name=<cat_name>&order_by={date_created/name}&dec=True
+/admin/dishes/search?dish_name=<dish_name>&order_by={date_created/ccal/price/rate/name}&dec=True
+/admin/orders/search?order_id=<order_id>&order_by={date_created/id/customer_name/price}&dec=True
