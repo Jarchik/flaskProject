@@ -59,7 +59,7 @@ def user_address():  # put application's code here
 
 
 @app.route('/user/address/<id>', methods=['GET', 'PUT', 'DELETE'])
-def user_history_id():  # put application's code here
+def user_address_id():  # put application's code here
     return 'Hello World!'
 
 
